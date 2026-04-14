@@ -1,0 +1,76 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+input{
+    height: 25px;
+    width: 550px;
+}
+select{
+    height: 25px;
+    width: 550px;
+    border: 1px solid black;
+}
+select:hover{
+    cursor: pointer;
+}
+.btn{
+    height: 30px;
+    width: 550px;
+    border: 1px solid black;
+    background-color: rgb(192, 189, 189);
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(15, 125, 204);
+    border: none;
+}
+.table{
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: fit-content;
+}
+th,td{
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    width: 105px;
+    box-sizing: border-box;
+    /* min-width: 90px; */
+}
+/* th{
+    background-color: #2366c3;
+    color: white;
+} */
+.edit{
+    background-color: green;
+    color: white;
+    height: 30px;
+    width: 90px;
+    margin: 10px;
+    border: none;
+}
+.edit:hover{
+    background-color: rgb(2, 70, 2);
+    cursor: pointer;
+}
+.delete{
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 90px;
+    border: none;
+}
+.delete:hover{
+    background-color: rgb(151, 4, 4);
+    cursor: pointer;
+}
+thead th{
+    background-color: #2366c3;
+    color: white;
+}
